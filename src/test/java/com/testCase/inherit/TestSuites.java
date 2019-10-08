@@ -1,9 +1,12 @@
-package com.testSuite;
+package com.testCase.inherit;
 
-import com.testCase.BuyTest;
-import com.testCase.LoginTest;
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+
+/**
+ * 利用父类继承来组织过程
+ */
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
@@ -11,5 +14,5 @@ import org.junit.runners.Suite;
         BuyTest.class
 })
 
-public class suiteDemoTest {
+public class TestSuites {
 }
