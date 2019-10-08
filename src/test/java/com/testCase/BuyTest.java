@@ -1,4 +1,4 @@
-package com.testcase;
+package com.testCase;
 
 import org.junit.Test;
 

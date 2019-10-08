@@ -1,7 +1,7 @@
-package com.suitedemo;
+package com.testSuite;
 
-import com.testcase.BuyTest;
-import com.testcase.LoginTest;
+import com.testCase.BuyTest;
+import com.testCase.LoginTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
