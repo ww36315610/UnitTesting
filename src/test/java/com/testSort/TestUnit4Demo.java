@@ -4,6 +4,12 @@ package com.testSort;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 
+
+/**
+ * 父类unit
+ */
+
+//排序注解
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestUnit4Demo {
 

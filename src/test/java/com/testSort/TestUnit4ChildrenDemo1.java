@@ -4,8 +4,13 @@ package com.testSort;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 
+/**
+ * 子类1_unit
+ */
+
+//排序注解
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class TestUnit4ChildrenDemo extends  TestUnit4Demo{
+public class TestUnit4ChildrenDemo1 extends TestUnit4Demo {
 
     @BeforeClass
     public static void beforeClildrenAllTestCase() {
@@ -18,12 +23,12 @@ public class TestUnit4ChildrenDemo extends  TestUnit4Demo{
     }
 
     @Before
-    public  void beforeClildrenTest() {
+    public void beforeClildrenTest() {
         System.out.println("Children--I am @Before Test");
     }
 
     @After
-    public  void afterClildrenTest() {
+    public void afterClildrenTest() {
         System.out.println("Children--I am @After Test");
     }
 
