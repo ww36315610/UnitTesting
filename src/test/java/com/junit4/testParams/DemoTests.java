@@ -1,4 +1,4 @@
-package com.testParams;
+package com.junit4.testParams;
 
 import org.junit.Rule;
 import org.junit.Test;

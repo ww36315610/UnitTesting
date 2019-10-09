@@ -1,4 +1,4 @@
-package com.xueqiu.web;
+package com.junit4.xueqiu.web;
 
 
 public class XueQiuApi {

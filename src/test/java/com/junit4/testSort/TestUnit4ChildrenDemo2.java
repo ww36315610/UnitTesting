@@ -1,4 +1,4 @@
-package com.testSort;
+package com.junit4.testSort;
 
 
 import org.junit.*;

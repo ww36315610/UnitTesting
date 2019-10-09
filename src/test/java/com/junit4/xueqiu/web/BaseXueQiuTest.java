@@ -1,7 +1,6 @@
-package com.xueqiu.web;
+package com.junit4.xueqiu.web;
 
 import org.junit.BeforeClass;
-import org.junit.Test;
 
 public class BaseXueQiuTest {
     @BeforeClass

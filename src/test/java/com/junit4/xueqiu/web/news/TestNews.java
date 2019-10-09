@@ -1,6 +1,6 @@
-package com.xueqiu.web.news;
+package com.junit4.xueqiu.web.news;
 
-import com.xueqiu.web.XueQiuApi;
+import com.junit4.xueqiu.web.XueQiuApi;
 import org.junit.BeforeClass;
 
 public class TestNews extends News {

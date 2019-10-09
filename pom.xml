@@ -10,7 +10,7 @@
 
     <properties>
         <!--<junit.version>4.12</junit.version>-->
-        <junit.version>5.5.2</junit.version>
+        <!--<junit.version>5.5.2</junit.version>-->
     </properties>
 
     <dependencies>
@@ -21,16 +21,18 @@
             <version>4.12</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.junit.jupiter</groupId>-->
-            <!--<artifactId>junit-jupiter-engine</artifactId>-->
-            <!--<version>5.5.2</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.junit.platform</groupId>-->
-            <!--<artifactId>junit-platform-runner</artifactId>-->
-            <!--<version>1.5.1</version>-->
-        <!--</dependency>-->
+        <!-- junit5 依赖 start -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <!-- junit5 依赖 end -->
 
     </dependencies>
 

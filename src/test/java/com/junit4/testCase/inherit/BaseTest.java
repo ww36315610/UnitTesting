@@ -1,4 +1,4 @@
-package com.testCase.inherit;
+package com.junit4.testCase.inherit;
 
 import java.util.HashMap;
 

@@ -1,17 +1,17 @@
-package com.testSort;
+package com.junit4.testCase.inherit;
+
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 /**
- * 测试套件
+ * 利用父类继承来组织过程
  */
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        TestUnit4ChildrenDemo2.class,
-        TestUnit4Demo.class,
-        TestUnit4ChildrenDemo1.class
+        LoginTest.class,
+        BuyTest.class
 })
 
 public class TestSuites {
