@@ -13,7 +13,7 @@ public class Junit5Nested {
 
     @Test
     void loginTest() {
-        dataMap.put("login", "登录成功");
+        dataMap.put("LoginTest", "登录成功");
     }
 
     /**
@@ -40,7 +40,7 @@ public class Junit5Nested {
         @Test
         void buyTest() {
 
-            if (dataMap.get("login").equals("登录成功")) {
+            if (dataMap.get("LoginTest").equals("登录成功")) {
                 System.out.println("登录成功啦，可以购买商品了");
                 dataMap.put("buy", "购买了addiss椰子");
             } else {

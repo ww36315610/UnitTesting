@@ -23,7 +23,7 @@ public class BuyTest {
     @Test
     public void buy() {
         //赋值
-        if (dataMap.get("login").equals("登陆成功1")) {
+        if (dataMap.get("LoginTest").equals("登陆成功1")) {
             System.out.println("登陆成功，可以购买1");
         } else {
             System.out.println("未登录，无法购买1");

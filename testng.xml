@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 设置parallel=methods多线程执行method 设置执行线程数量-->
+<suite name="Suite" parallel="methods" thread-count="3">
+
+    <test name="loginTest_testNG">
+
+        <groups>
+            <run>
+                <!--<include>运行的组名</include>-->
+                <!--<exclude>禁止的组名</exclude>-->
+            </run>
+        </groups>
+
+        <classes>
+            <!-- 调用@Test执行类 -->
+            <class name="com.testNG.testCase.LoginTest"/>
+            <!--<methods>-->
+                <!--<include name="testUserLogin0"></include>-->
+                <!--<include name="testUserLogin1"></include>-->
+                <!--<include name="testUserLogin2"></include>-->
+                <!--<include name="testUserLogin3"></include>-->
+                <!--<include name="testUserLogin4"></include>-->
+                <!--<include name="testUserLogin5"></include>-->
+            <!--</methods>-->
+        </classes>
+
+    </test>
+
+</suite>
