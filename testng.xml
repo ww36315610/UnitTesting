@@ -14,15 +14,27 @@
 
         <classes>
             <!-- 调用@Test执行类 -->
-            <class name="com.testNG.testCase.LoginTest"/>
-            <!--<methods>-->
-                <!--<include name="testUserLogin0"></include>-->
-                <!--<include name="testUserLogin1"></include>-->
-                <!--<include name="testUserLogin2"></include>-->
-                <!--<include name="testUserLogin3"></include>-->
-                <!--<include name="testUserLogin4"></include>-->
-                <!--<include name="testUserLogin5"></include>-->
-            <!--</methods>-->
+            <class name="com.testNG.testCase.LoginTest">
+                <!--<methods>-->
+                <!--&lt;!&ndash;<include name="testUserLogin0"></include>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="testUserLogin1"></include>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="testUserLogin2"></include>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="testUserLogin3"></include>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="testUserLogin4"></include>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="testUserLogin5"></include>&ndash;&gt;-->
+                <!--</methods>-->
+            </class>
+            <class name="com.testNG.testCase.LoginTestParamsData">
+                <parameter name="name" value="admin"></parameter>
+                <parameter name="pwd" value="123456"></parameter>
+                <parameter name="expect" value="欢迎管理员"></parameter>
+
+                <methods>
+                    <include name="testUserLoginParam"></include>
+                    <include name="testUserLoginData"></include>
+                </methods>
+
+            </class>
         </classes>
 
     </test>
