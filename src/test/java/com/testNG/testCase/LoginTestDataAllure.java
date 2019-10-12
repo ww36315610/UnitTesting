@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 
 public class LoginTestDataAllure {
 
-    @DisplayName("Allure_test_demo")//case显示名称
+    @DisplayName("Allure_DataProvider_test_demo")//case显示名称
     @Description("DataProvider+allure测试")//case说明
     @Link("https://www.baidu.com")//case链接
-    @Issue("001") //case编号
+    @Issue("002") //case编号
     @Severity(SeverityLevel.MINOR) //优先级[没看出什么用途]
     @Test(dataProvider = "putUsers", dataProviderClass = LoginTestDataAllure.class)
     public void testUserLoginData(String name,String pwd,String expect) {
