@@ -7,6 +7,7 @@
 
         <groups>
             <run>
+                <!-- 不写默认都执行 -->
                 <!--<include>运行的组名</include>-->
                 <!--<exclude>禁止的组名</exclude>-->
             </run>
@@ -15,6 +16,7 @@
         <classes>
             <!-- 调用@Test执行类 -->
             <class name="com.testNG.testCase.LoginTest">
+                <!-- 不写methods默认所有方法都执行，写上控制某个执行某个不执行 -->
                 <!--<methods>-->
                 <!--&lt;!&ndash;<include name="testUserLogin0"></include>&ndash;&gt;-->
                 <!--&lt;!&ndash;<include name="testUserLogin1"></include>&ndash;&gt;-->
@@ -24,6 +26,7 @@
                 <!--&lt;!&ndash;<include name="testUserLogin5"></include>&ndash;&gt;-->
                 <!--</methods>-->
             </class>
+
             <class name="com.testNG.testCase.LoginTestParamsData">
                 <parameter name="name" value="admin"></parameter>
                 <parameter name="pwd" value="123456"></parameter>
@@ -33,8 +36,14 @@
                     <include name="testUserLoginParam"></include>
                     <include name="testUserLoginData"></include>
                 </methods>
-
             </class>
+
+            <class name="com.testNG.testCase.LoginTestDataAllure">
+                <methods>
+                    <include name="testUserLoginData"></include>
+                </methods>
+            </class>
+
         </classes>
 
     </test>

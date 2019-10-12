@@ -13,7 +13,6 @@ public class LoginTest {
         Assert.assertEquals("用户名或者密码不能为空", ac, "空 is fail");
     }
 
-
     @Test
     public void testUserLogin1() {
         Login login = new Login();
