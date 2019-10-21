@@ -26,6 +26,7 @@ public class LoginTest {
         Assert.assertTrue(con, "空 is fail");
     }
 
+//    @Test(enabled = false)
     @Test
     public void testUserLogin1() {
         Login login = new Login();

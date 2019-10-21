@@ -1,0 +1,26 @@
+[
+  {
+    "description":"post 请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"This is post request"
+    }
+  },
+  {
+    "description":"带参数的post请求",
+    "request":{
+      "uri":"/postDemoWithParam",
+      "method":"post",
+      "queries":{
+        "param1":"one",
+        "param2":"two"
+      }
+    },
+    "response":{
+      "text":"this is post request with param"
+    }
+  }
+]

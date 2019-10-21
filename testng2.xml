@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 设置parallel=methods多线程执行method 设置执行线程数量-->
+<suite name="ThreadXml" parallel="methods" thread-count="4">
+
+    <test name="threadTest">
+
+        <classes>
+            <!-- 调用@Test执行类1 -->
+            <class name="com.testNG.test.ThreadsXmlTest"></class>
+            <!-- 调用@Test执行类2 -->
+            <class name="com.testNG.test.ThreadsXmlTest1"></class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 设置parallel=methods多线程执行method 设置执行线程数量-->
+<suite name="Suite1" parallel="methods" thread-count="1">
+
+    <test name="loginTest_testNG1">
+
+        <groups>
+            <run>
+                <!-- 不写默认都执行 -->
+                <include name="server"></include>
+                <!--<include name="client"></include>-->
+                <exclude name="client"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.testNG.test.GroupTest">
+                <!--<parameter name="name" value="admin"></parameter>-->
+                <!--<parameter name="pwd" value="123456"></parameter>-->
+                <!--<parameter name="expect" value="欢迎管理员"></parameter>-->
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>

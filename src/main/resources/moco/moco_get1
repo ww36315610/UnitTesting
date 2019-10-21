@@ -1,0 +1,30 @@
+[
+  {
+    "description":"不带参数的get请求",
+    "request":
+    {
+      "uri":"/getMethod",
+      "method":"get"
+    },
+    "response":
+    {
+      "text":"这是一个不带参数的get请求"
+    }
+  },
+  {
+    "description":"带参数的get请求，name,pwd为参数",
+    "request":
+    {
+      "uri":"/getMethodByParam",
+      "method":"get",
+      "queries":{
+         "name":"admin",
+         "pwd":"123456"
+      }
+    },
+    "response":
+    {
+        "text":"这是带参数的get请求,name=admin,pwd=123456"
+    }
+  }
+]

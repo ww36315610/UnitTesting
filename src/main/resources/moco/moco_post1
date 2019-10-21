@@ -1,0 +1,30 @@
+[
+  {
+    "description":"不带参数的post请求",
+    "request":
+    {
+      "uri":"/postMethod",
+      "method":"post"
+    },
+    "response":
+    {
+      "text":"这是一个不带参数的post请求"
+    }
+  },
+  {
+    "description":"带参数的get请求，name,pwd为参数",
+    "request":
+    {
+      "uri":"/postMethodByParam",
+      "method":"post",
+      "queries":{
+         "name":"admin",
+         "pwd":"123456"
+      }
+    },
+    "response":
+    {
+      "text":"这是一个带参数的post请求,name=admin,pwd=123456"
+    }
+  }
+]
