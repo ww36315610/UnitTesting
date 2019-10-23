@@ -2,6 +2,9 @@ package com.testNG.test;
 
 import org.testng.annotations.Test;
 
+/**
+ * 多线程测试
+ */
 public class ThreadsTest {
 
     //

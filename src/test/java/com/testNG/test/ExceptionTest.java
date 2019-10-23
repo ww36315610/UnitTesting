@@ -2,6 +2,9 @@ package com.testNG.test;
 
 import org.testng.annotations.Test;
 
+/**
+ * 异常测试
+ */
 public class ExceptionTest {
 
     @Test(expectedExceptions = RuntimeException.class)

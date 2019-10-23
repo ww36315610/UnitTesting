@@ -4,6 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+/**
+ * 2。dataProvider实现数据管理驱动
+ */
 public class LoginTestParamsData {
 
     @Test(parameters = {"name", "pwd", "expect"})

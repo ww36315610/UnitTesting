@@ -70,7 +70,7 @@ public class SetStep {
 
     public void pushPicture() {
         try {
-            Allure.addAttachment("picture", "image/png", new FileInputStream("/Users/apple/Desktop/photo/allure/allure_1.png"), ".png");
+            Allure.addAttachment("picture", "image/png", new FileInputStream("/Users/apple/Desktop/missMa/photo/allure/allure_1.png"), ".png");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

@@ -7,6 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
+/**
+ * 1。基础测试方式
+ * 对应testng.xml
+ */
 public class LoginTest {
 
     @DisplayName("Allure_test_demo")//case显示名称

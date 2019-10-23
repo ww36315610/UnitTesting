@@ -3,6 +3,9 @@ package com.testNG.test;
 
 import org.testng.annotations.Test;
 
+/**
+ * 依赖测试
+ */
 public class DependsOnMethodsTest {
 
 

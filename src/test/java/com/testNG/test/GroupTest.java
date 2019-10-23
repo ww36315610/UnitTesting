@@ -3,6 +3,9 @@ package com.testNG.test;
 
 import org.testng.annotations.*;
 
+/**
+ * 分组测试
+ */
 public class GroupTest {
 
     @BeforeSuite

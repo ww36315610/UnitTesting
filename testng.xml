@@ -7,8 +7,8 @@
 
         <groups>
             <run>
-                <!-- 不写默认都执行 <se></se>
-                <!--<include>运行的组名</include>-->
+                <!-- 不写默认都执行 -->
+                <!-- <include>运行的组名</include>-->
                 <!--<exclude>禁止的组名</exclude>-->
             </run>
         </groups>
